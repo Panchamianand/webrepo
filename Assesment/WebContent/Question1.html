@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="JSfiles/java.js"></script> 
+  
+  
+ <script type="text/javascript" src="JSfiles/js.js"></script> 
+</head>
+
+<body onload="fetchQuestion('e1')" style="background-color:#ffe6e6;">
+
+ <marquee><h1 style="color:#990000">Welcome online Quiz portal</h1></marquee>
+ <div class="container">
+ <div class="jumbotron" style="background-color: #ffcccc;">
+<div class="jumbotron" style="background-color:  #ff8080;">
+    <div class="panel-group">
+    <div class="panel panel-warning">
+    <div class="panel-heading"><h1 style="text-align:center;"> Question 1 :</h1><h3 style="text-align:center;"><b id="myData" style="font-size:20px"> </b></h3>
+    
+     </div>
+     <div class="panel-body">
+    <form name="form">
+   <input type="radio" id="g1" name="quiz" value="A" onclick="reset_msg();" >&nbsp&nbsp&nbsp<b id="myData2" style="font-size:20px" > </b><br><br>
+   <input type="radio" id="g2" name="quiz" value="B" onclick="reset_msg();" >&nbsp&nbsp&nbsp<b id="myData3" style="font-size:20px"> </b><br><br>
+   <input type="radio" id="g3" name="quiz" value="C" onclick="reset_msg();" >&nbsp&nbsp&nbsp<b id="myData4" style="font-size:20px"> </b><br><br>
+   <input type="radio" id="g4" name="quiz" value="D" onclick="reset_msg();">&nbsp&nbsp&nbsp<b id="myData5" style="font-size:20px"> </b>
+   <br>
+   <br>
+   
+  <p align="right">
+  <a href="Question2.html"><button type="button" class="btn btn-danger btn-lg "  onclick=" ourFunction('e1'); return radioValidation(); " >Next</button></a>
+</p>
+   </form>	
+  
+
+  
+   </div>
+    </div>
+  </div>
+</div>
+<ul class="pagination justify-content-end pagination-lg">
+     <h3>Page Number :</h3>&nbsp&nbsp
+    <li class="page-item"><a class="page-link" href="Question1.html;">1</a></li>
+    <li class="page-item"><a class="page-link" href="Question2.html;">2</a></li>
+    <li class="page-item"><a class="page-link" href="Question3.html;">3</a></li>
+    <li class="page-item"><a class="page-link" href="Question4.html">4</a></li>
+  </ul>
+</div>
+
+</div>
+
+<script type="text/javascript" src="JSfiles/java.js"></script>
+</body>
+</html>

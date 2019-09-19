@@ -1,0 +1,40 @@
+{
+    "e1":{
+        "Question": "What comes after A?",
+        "Option1": "J",
+        "Option2": "G",
+        "Option3": "O",
+         "Option4": "B",
+         "answer": "D"
+   }
+ ,
+    "e2":{
+    	"Question": "Capital city of Karnataka?",
+        "Option1": "Raichur",
+        "Option2": "Udupi",
+        "Option3": "Hubli",
+        "Option4": "Banglore",
+        "answer" : "D"
+    }
+ ,
+    "e3":{
+    	"Question": "What is your hair color?",
+        "Option1": "Black",
+        "Option2": "Orange",
+        "Option3": "Blue",
+        "Option4": "Green",
+        "answer" : "A"
+    }
+,    
+     "e4":{
+     	"Question": "Which one is the fruit?",
+        "Option1": "Apple",
+        "Option2": "Spinage",
+        "Option3": "Pumpkin",
+        "Option4": "Carrot",
+        "answer" : "A"
+    }
+
+	 
+    
+}
